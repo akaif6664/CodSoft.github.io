@@ -1,0 +1,186 @@
+body{
+    background: url(images/rk_bg_image.jpg) center center fixed;
+    text-align: center;
+    background-size: cover;
+    font-family: 'Poppins', sans-serif;
+}
+nav{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+#navbar-example{
+    font-size: 23px;
+}
+#navbar-example a{
+    color: white;
+}
+#navbar-example a:hover{
+    color: #c3c3bf;
+}
+#navbar-example a:active{
+    background-color: silver;
+    color: black;
+}
+.floating-menu{
+    padding: 5px;
+/*    width: 130px;*/
+    z-index: 100;
+    position: fixed;
+    color: white;
+    margin-top: 40%;
+    text-align: start;
+}
+.floating-menu a{
+/*    font-size: 0.9em;*/
+    display: block;
+    margin: 0 0 0.7em 0;
+    color: white;
+}
+.floating-menu a:hover{
+/*    font-size: 0.9em;*/
+    display: block;
+    margin: 0 0 0.7em 0.3em;
+    color: #c3c3c0;
+}
+.floating-menu a:active{
+/*    font-size: 0.9em;*/
+    display: block;
+    margin: 0 0 0.7em -0.3em;
+    color: #5b5b5b;
+}
+
+#home{
+    text-align: left;
+    margin-top: 160px;
+    color: whitesmoke;
+    overflow-x: hidden;
+}
+#grid1{
+    margin-top: 200px;
+}
+#about_me{
+    color: azure;
+    font-size: 20px;
+}
+#skills{
+    color:aliceblue;
+}
+#experience, #Generosity, #positive-thinking, #focus, #financial-edcuation, #asset-building, #risk-taking, #hard-work, #innovation{
+    background: rgba(210, 210, 210, 0.1);
+    border-radius: 10px;
+}
+#projects{
+    color: white;
+    margin: 10px auto 10px auto;
+    text-align: center;
+}
+#download_resume{
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+a:link {
+  color: #ffffff;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: grey;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+.footer{
+    color: #5b5b5b;
+    padding-left: 200px;
+    margin-top: 21px;
+}
+
+
+@media screen and (max-width: 568px){
+    nav{
+        position: fixed;
+        top: 0;
+        width: 100%;
+        margin-left: 10px;
+        font-size: 4vw;
+    }
+    .floating-menu{
+/*        padding: 0px;*/
+        text-align: end;
+/*        font-size: 0.9em;*/
+/*        width: 130px;*/
+        z-index: 100;
+        position: fixed;
+        right: 0;
+        margin-top: 50%;
+    }
+    .floating-menu a{
+/*        font-size: 0.9em;*/
+        display: block;
+        font-size: 0.9em;
+        color: white;
+    }
+    .floating-menu a:hover{
+/*        font-size: 0.9em;*/
+        display: block;
+        font-size: 0.9em;
+        color: #c3c3c0;
+    }
+    .floating-menu a:active{
+/*        font-size: 0.9em;*/
+        display: block;
+        color: #5b5b5b;
+}
+    #home{
+        text-align: left;
+        margin-top: 60px;
+        margin-left: 10px;
+        font-size: 3em;
+        color: whitesmoke;
+        overflow-x: hidden;
+    }
+    img{
+        margin-left: 5px;
+        height: auto;
+        max-width: 360px;
+        margin-top: 20px;
+    }
+    #about_me{
+        color: azure;
+        font-size: 20px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    #skills{
+        color:aliceblue;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    #projects{
+        color: white;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    object{
+        width: 350px;
+        height: 450px;
+    }
+    .footer{
+        color: #5b5b5b;
+        padding-left: 40px;
+        margin-top: 25px;
+    }
+}
